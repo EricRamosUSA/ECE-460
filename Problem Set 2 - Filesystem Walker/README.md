@@ -1,6 +1,8 @@
 Recursive filesystem walker <br />
 Simplified version of find(1) <br />
-Program is invoked as: ./walker options startingpath <br />
+Program is invoked as: <br />
+
+./walker options startingpath <br />
 
 Options: <br />
 -u user: Only list nodes owned by the user (specified by given name or by uid number) <br />
