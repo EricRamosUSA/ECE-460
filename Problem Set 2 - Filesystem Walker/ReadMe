@@ -1,0 +1,9 @@
+Recursive filesystem walker
+Simplified version of find(1)
+Program is invoked as: ./walker options startingpath
+
+Options:
+-u user: Only list nodes owned by the user (specified by given name or by uid number)
+-m mtime: Only list nodes not modified in the specified mtime. If mtime is negative, walker will only list nodes that have been modified at most mtime seconds ago.
+-x : walker will only stay within the original mounted filesystem (i.e., not cross volumes). A message will be printed to stderr stating: "Note: not crossing mount point at [volume name]"
+-l target: Only symlinks that resolve to another node "target" will be listed.
