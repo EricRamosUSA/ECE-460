@@ -1,4 +1,4 @@
-Modified copycat to accept arguments in the form:
+Modified copycat to accept arguments in the form: <br \>
 
 catgrepmore pattern infile1 [...infile2...]
 
