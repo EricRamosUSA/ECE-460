@@ -1,4 +1,4 @@
-Test programs that help answer the following questions <br />
+Test programs that help answer the following questions: <br />
 
 A: "When one has mapped a file for read-only access, but attempts to write to that mapped area, what signal is generated?" <br />
 B: "If one maps a file with MAP_SHARED and then writes to the mapped memory, is that update visible when accessing the file through the traditional lseek(2)/read(2) system calls?" <br />
