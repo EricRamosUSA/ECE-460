@@ -6,8 +6,8 @@ command {argument {argument...} } {redirection_operation {redirection_operation.
 
 The following redirect arguments are supported: <br />
 
-'<filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open filename and redirect to stdin) <br />
-'>filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open/create/truncate filename and redirect to stdout) <br />
+'<filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open filename and redirect to stdin) <br />
+'>filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open/create/truncate filename and redirect to stdout) <br />
 '2>filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open/create/truncate filename and redirect to stderr) <br />
 '>>filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open/create/append filename and redirect to stdout) <br />
 '2>>filename'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Open/create/append filename and redirect to stderr) <br />
